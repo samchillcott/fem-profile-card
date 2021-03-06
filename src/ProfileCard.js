@@ -1,30 +1,31 @@
-import React from 'react'
-import './'
+import './ProfileCard.css'
+
 const ProfileCard = () => {
     return (
         <div className="profile-card">
             <svg src="./assets/bg-pattern-card.svg" alt=""/>
 
             <div className="profile-details">
+                <img src="./assets/image-victor.jpg" className="profile-image" alt=""/>
              Victor Crest 26
             London
 
             </div>
             <div className="stat-wrapper">
-            <div className="followers">
-            80K Followers
+                <div className="followers">
+                80K Followers
 
-            </div>
-            <div className="likes">
-            803K Likes
-
-
-            </div>
-            <div className="photos">
-            1.4K Photos
+                </div>
+                <div className="likes">
+                803K Likes
 
 
-            </div>
+                </div>
+                <div className="photos">
+                1.4K Photos
+
+
+                </div>
 
             </div>
             <footer>
