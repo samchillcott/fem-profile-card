@@ -1,6 +1,7 @@
 body {
   font-size: 18px;
   background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
 }
 
 main {
@@ -32,4 +33,59 @@ header .avatar {
   border: 5px solid white;
   background-image: url(./assets/image-victor.jpg);
   background-size: cover;
+}
+
+.content {
+ text-align: center;
+ padding-top: 70px;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+h2 .age{
+  opacity: 0.5;
+  display: inline-block;
+  margin-left: 0.5em;
+  margin-bottom: 0em;
+}
+
+.label {
+  opacity: 0.75;
+  font-size: 0.85em;
+}
+
+footer {
+  margin-top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.col {
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0px;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0.1em;
+}
+
+small {
+  opacity: 0.75;
+  font-size: 0.75em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
