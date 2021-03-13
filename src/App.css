@@ -15,4 +15,21 @@ main {
 
 header {
   height: 150px;
-background-image: url(./assets/bg-pattern-card.svg);}
+  background-image: url(./assets/bg-pattern-card.svg);
+  position: relative;
+}
+
+header .avatar {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  bottom: -55px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  display: inline-block;
+  border: 5px solid white;
+  background-image: url(./assets/image-victor.jpg);
+  background-size: cover;
+}
