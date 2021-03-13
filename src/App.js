@@ -28,10 +28,6 @@ function App() {
                   <small>Photos</small>
               </div>
             </footer>
-            {/* <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-     Coded by <a href="#">Sam Chillcott</a>.
-  </div> */}
         </div>
         </main>
     </div>
