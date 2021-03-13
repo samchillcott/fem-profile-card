@@ -1,3 +1,11 @@
-.App {
+body {
+  font-size: 18px;
+  background-color: hsl(185, 75%, 39%);
+}
 
+main {
+  background-color: #fff;
+  margin: auto;
+  max-width: 350px;
+  border-radius: 15px;
 }
