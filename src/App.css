@@ -37,7 +37,7 @@ header .avatar {
 
 .content {
  text-align: center;
- padding-top: 70px;
+ padding-top: 65px;
 }
 
 h2 {
@@ -68,17 +68,19 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 30px 0px;
+  padding-top: 30px;
+  padding-bottom: 25px;
 }
 
 h3 {
   margin-top: 0;
-  margin-bottom: 0.1em;
+  margin-bottom: 0.3em;
+  font-size: 1em;
 }
 
 small {
-  opacity: 0.75;
-  font-size: 0.75em;
+  opacity: 0.5;
+  font-size: 0.65em;
 }
 
 .attribution {
