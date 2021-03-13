@@ -8,4 +8,11 @@ main {
   margin: auto;
   max-width: 350px;
   border-radius: 15px;
+  box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.15);
+  margin-top: 150px;
+  overflow: hidden;
 }
+
+header {
+  height: 150px;
+background-image: url(./assets/bg-pattern-card.svg);}
